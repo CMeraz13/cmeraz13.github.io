@@ -1,0 +1,37 @@
+body {
+    background-color: purple;
+}
+h1 {
+    background-color: chartreuse;
+    padding: 8px;
+    text-align: center;
+}
+p {
+    color: white;
+}
+
+/*
+This is my comment. The sixe can change between em (a mulitplyer to the height), Pixels aka px and %
+Padding works like this, creates space between a border, starts with top, right, bottom, and lastly left.
+so if you put nothing in the last 3 it will just make it the same as the first impute i.e 10px, 10px, 10px, 10px.
+To work with classes us a dot i.e., .fancy and an ID you use a pound i.e., #david
+*/
+.fancy {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    color: palegoldenrod;
+    border: 1px solid white;
+    padding: 50px 10px 100px 200px;
+    margin: 40px;
+    margin-left: 120px;
+    background-color: red;
+}
+
+#david {
+    width: 100px;
+}
+.superfancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+}
