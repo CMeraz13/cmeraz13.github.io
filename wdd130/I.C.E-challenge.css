@@ -1,0 +1,47 @@
+@media screen{
+     
+    body{
+        background-color: black;
+        max-width: 800px;
+    }
+
+    .main{
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 500px;
+        background-color: white;
+    }
+
+    .header_words{
+        text-align: center;
+        background-color: white;
+    }
+    .three_weeks_ago{
+        font-size: 11px;
+        color: lightskyblue;
+    }
+    .post_three{
+        text-decoration:solid;
+        font-size: 30px;
+        font-family:serif;
+    }
+    .paragraph{
+        margin: 50px;
+        background-color: white;
+        padding: 1fr 1fr 1fr 1fr;
+        font-family:sans-serif;
+        color: grey;
+    }
+    .bottom{
+        border-radius: 0px 0px 15px 15px;
+        display: grid;
+        column-gap:10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: white;
+        background-color: rgb(64, 64, 255);
+        padding-left: 5px;
+        font-size: 22px;
+        text-align: center;
+        padding-right: 5px;
+    }
+}
