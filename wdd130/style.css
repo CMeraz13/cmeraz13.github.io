@@ -201,6 +201,70 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+ /*
+    Sub page CSS.
+ */
+  
+
+.header{
+    display: display;
+    grid-template-columns: 32px 1fr 1fr 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.long_image{
+    margin-left: 16%;
+}
+.long_image_paragraph{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 50px
+}
+.middle_paragraph{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+.colorado_image{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.colorado_paragraphs{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    column-gap: -20px;
+}
+.colorado_paragraphs_two{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    column-gap: -20px;
+}
+.footer{
+    display: grid;
+    padding-left: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: firebrick;
+}
+
+._link_one{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.under_link_two{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer_icon{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/*
+    Moblie photo view
+*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
