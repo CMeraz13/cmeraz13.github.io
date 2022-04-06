@@ -131,10 +131,17 @@ Second page
 
 }
 
+.second_page_top_pharagraph{
+    font-size: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .mid_section_second_page{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
+    padding-top: 20px;
 
 }
 
@@ -147,6 +154,7 @@ Second page
 
 .paragraph_second_page_mid{
     max-width: 1000px;
+    font-size: 20px;
 }
 
 
@@ -163,6 +171,19 @@ Third Page
     grid-template-columns: 1fr;
     text-align: center;
     
+}
+
+.page_three_top_paragraph{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page_three_top_paragraph_two{
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: underline;
 }
 
 .banner_third_page{
